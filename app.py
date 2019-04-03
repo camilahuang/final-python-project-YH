@@ -11,8 +11,7 @@ load_dotenv()
 @app.route("/")
 def homepage():
   return render_template("index.html")
-
-
+  
 @app.route("/index.html")
 def say_hello():
   return render_template("index.html")
