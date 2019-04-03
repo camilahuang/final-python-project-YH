@@ -16,11 +16,12 @@ def homepage():
 def say_hello():
   return render_template("index.html")
 
-@app.route("/contact.html")
+@app.route("/contact")
 def contactpage():
-  return render_template("contact.html")
+  data = request.values
+  return render_template("contact.html", form_data=data)
 
-@app.route("/feedback.html", methods=["POST"])
+@app.route("/feedback", methods=["POST"])
 def get_feedback():
   data = request.values
   return render_template("feedback.html", form_data=data)

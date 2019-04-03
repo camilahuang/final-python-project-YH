@@ -63,7 +63,7 @@ ul {
   {
       float:left;				 /* 导航栏的位置配置 */
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      width:120px;			 /* 选中的文字块的长度  */
+      width:150px;			 /* 选中的文字块的长度  */
       line-height:50px; 		         /* 选中的文字块的宽度  */
       text-decoration: none;               /* 去掉连接下划线  */
       font-size:30px;			 /* 字体大小 */
