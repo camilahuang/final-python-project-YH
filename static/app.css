@@ -98,18 +98,7 @@ body {
     background-color: rgba(192, 192, 228, 0.664);
     padding: 40px;
 }
-.side2 {
-  -ms-flex: 40%; /* IE10 */
-  flex: 40%;
-  background-color: rgba(192, 192, 228, 0.664);
-  padding: 40px;
-}
-.side3 {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: rgba(192, 192, 228, 0.664);
-  padding: 40px;
-}
+
 @media screen and (max-width: 700px) {
   .row {   
       flex-direction: column;

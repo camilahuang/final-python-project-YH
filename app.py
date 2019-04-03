@@ -5,9 +5,13 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+from dotenv import load_dotenv
+load_dotenv()
+
 @app.route("/")
 def homepage():
   return render_template("index.html")
+
 
 @app.route("/index.html")
 def say_hello():
